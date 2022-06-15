@@ -1,0 +1,14 @@
+create database teste;
+use teste;
+create table alunos(
+id INTEGER 	auto_increment,
+nome varchar(100),
+email varchar(100),
+senha varchar(100),
+idade integer,
+primary key (id)
+);
+show tables;
+INSERT INTO alunos(nome,email,senha)
+VALUES ("Maiara","maiara@g","123");
+select * from alunos;
